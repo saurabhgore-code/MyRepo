@@ -1,6 +1,6 @@
 node{
     stage('Git Clone'){
-        git 'https://github.com/saurabh-gore/MyRepo.git'
+        git 'https://github.com/saurabhgore-code/MyRepo.git'
     }
     stage('Maven Package'){
         def mvnHome = tool name: 'Maven', type: 'maven'
